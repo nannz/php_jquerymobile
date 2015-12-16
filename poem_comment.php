@@ -146,9 +146,13 @@
 
 
 
-        <div data-role="footer">
+        <!-- <div data-role="footer">
             <h4>Footer</h4>
-        </div>
+        </div> -->
+        <footer>
+            <p style="color:#fff">原诗森林</p>
+            <img width="25%" src="image/team-logo.svg" />
+        </footer>
 
     </div>
 
@@ -163,7 +167,6 @@
                 <li><a href="#analysis">Analysis</a></li>
                 <li><a href="#background">Background</a></li>
                 <li><a href="#comment">Comments</a></li>
-                <li><a href="#" title="Report">Report Bug</a></li>
             </ul>
 
         </div>

@@ -16,7 +16,7 @@ function dbConnect(){
 
 $db = dbConnect();
 //only show the two lastest comments.
-$select = $db->query("SELECT * FROM messages ORDER BY id DESC LIMIT 2");
+$select = $db->query("SELECT * FROM messages ORDER BY id DESC LIMIT 5");
 $output = '';
 while($row = $select->fetch()) {
   $output .= "<p>" . $row['name'] . " : " . $row['message'] . "</p>";
