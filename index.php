@@ -3,15 +3,9 @@
 <head>
     <title>Forum</title>
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script>
-        
-    </script>
 </head>
 <body>
-    <!--<div>-->
-        <!--<div id="txtre" style="height:20px;"></div>-->
-        <!--<input type=text id="txtuser" onkeyup="javascript:document.getElementById('txtre').innerHTML=this.value;">-->
-    <!--</div>-->
+    
 
     <div>
         <form id="myForm" method="post">

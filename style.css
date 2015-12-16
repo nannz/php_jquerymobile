@@ -1,0 +1,122 @@
+body{
+    text-shadow:none;
+
+}
+#poemAudio
+{
+    display: none;
+    margin-top: 24px;
+}
+
+.ui-content{
+    padding:0;
+    margin:0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#poemContent{
+    padding-left:2.5em;
+    padding-right:0.5em;
+}
+#title{
+    background-color:#2B2B2B;
+}
+
+dl {
+    font-family: "Times New Roman", Times, serif;
+    padding-right: 1em;
+    padding-bottom:1em;
+    padding-left: 2.5em;
+    padding-top: 2em;
+    margin:0;
+}
+dt {
+    color:white;
+    text-shadow:none;
+    font-size: 4.5em;
+    font-weight: bold; }
+dt span {
+    font-size: .5em;
+    color: #777; }
+dd {
+    text-shadow:none;
+    font-size: 1.25em;
+    color:#009999;
+    margin: 1em 0 0;
+    padding-bottom: 0.5em;
+    /*border-bottom: 1px solid #eee; */
+}
+
+.btn
+{
+    text-align: center;
+    position: fixed;
+    height: 50%;
+    left: 0;
+    bottom: 0;
+    width:40px;
+    z-index: 0;
+}
+.btn img
+{
+    max-width: 25px;
+}
+#analysisContent{
+    margin-top:1em;
+}
+#analysisTitle{
+    padding: 0.5em;
+    text-shadow:none;
+    width: 100px;
+    color:white;
+    background-color: #333333;
+}
+#analysis{
+    padding:1em;
+}
+#backgroundContent{
+    margin-top:2em;
+}
+#backgroundTitle{
+
+    padding: 0.5em;
+    text-shadow:none;
+    width: 100px;
+    color:white;
+    background-color: #333333;
+}
+#background {
+    padding:1em;
+}
+
+#commentContent{
+    margin-top:2em;
+}
+#commentTitle{
+
+    padding: 0.5em;
+    text-shadow:none;
+    width: 100px;
+    color:white;
+    background-color: #333333;
+}
+
+
+/*#left-panel .ui-panel{*/
+    /*width:10em;*/
+/*}*/
+
+/*.ui-panel-animate{*/
+    /*transform:translate3d(10em,0,0);*/
+/*}*/
+
+
+
+.active
+{
+    font: 18px "Times New Roman", Times, serif;
+    line-height: 20px;
+    height: 50%;
+    font-weight: bold;
+    color: #009999;
+}
