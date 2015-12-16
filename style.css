@@ -62,7 +62,7 @@ dd {
     max-width: 25px;
 }
 #analysisContent{
-    margin-top:1em;
+    margin-top:2em;
 }
 #analysisTitle{
     padding: 0.5em;
@@ -110,6 +110,12 @@ dd {
     /*transform:translate3d(10em,0,0);*/
 /*}*/
 
+#form{
+    padding:0.8em;
+}
+#commentHistory{
+    padding:0.8em;
+}
 
 
 .active
